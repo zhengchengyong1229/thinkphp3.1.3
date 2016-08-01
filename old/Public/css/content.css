@@ -1,0 +1,108 @@
+@charset "utf-8";
+.banner{ margin-bottom:0;}
+.banner img{ width:100%;}
+.list1 dt{ float:left; width:53%; height:100%; background-size:10%;}
+.list1 dt a{ display:block; width:100%; height:100%}
+.list1 dd{ float:right; width:47%;}
+.list1 dd div{margin:50px 50px;}
+.list1 dd h3{ font-size:26px; margin-bottom:20px;}
+.list1 dd p{ font-size:14px; line-height:200%;}
+.list1 dl.fr dt{ float:right}
+.list1 dl.fr dt img{ width:100%}
+.list1 dl.fr dd{ float:left}
+.list1 dl dd p a{ color:#666; font-size:12px}
+.article{ line-height:36px; min-height:500px; margin:40px auto; font-size:16px;}
+.article img{ max-width:100%}
+
+.list0{ margin:40px auto;position:relative;}
+.list0 ul{ float:left;}
+.list0 dl{-webkit-box-shadow:0 0 4px rgba(0,0,0,.5); -moz-box-shadow:0 0 4px rgba(0,0,0,.5); -o-box-shadow:0 0 4px rgba(0,0,0,.5); box-shadow: 0 0 4px rgba(0,0,0,.5); background:#FFF}
+.list0 dt{ width:100%;}
+.list0 dt img{ width:100%;background:url(../Images/load.gif) center no-repeat}
+.list0 dd{ padding:10px; padding-bottom:0; line-height:20px;}
+.list0 dd h4{font-size:16px; font-weight:normal;}
+.list0 dd h4.elp{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.list0 dd span{ display:block; margin-top:5px; color:#999}
+.list0 dd span a{ color:#666; display:inline-block}
+
+.news_pannel{margin:40px auto}
+.news_tt{ width:100%;font-size:24px; text-align:center;color:#000;border-bottom:1px dotted #CCC; padding-bottom:10px;}
+.news_time{width:100%; clear:both;text-align:center;display:none; border-bottom:1px dotted #CCC; padding-bottom:10px; font-family:Arial; color:#999999}
+.news_ct{padding-top:20px; line-height:30px; font-size:14px}
+.news_ct img{ max-width:100%; display:block; margin:10px auto;}
+
+.PageTurnBtn{ text-align:center; margin-bottom:40px;}
+
+
+.slider{ width:100%;margin:50px auto 0}
+.slider h3{font-size:36px; font-weight:normal; margin-bottom:20px; color:#887d77}
+
+.pic_list{width:30000px;}
+.pic_list div{ float:left}
+.pic_list li { float:left;margin:10px 5px;overflow:hidden;width:260px;height:235px;cursor:pointer;display:inline;background:#FFF;-webkit-box-shadow:0 0 4px rgba(0,0,0,.5); -moz-box-shadow:0 0 4px rgba(0,0,0,.5); -o-box-shadow:0 0 4px rgba(0,0,0,.5); box-shadow: 0 0 4px rgba(0,0,0,.5);}
+.pic_list li a.pic{ display:block;height:150px; width:100%; overflow:hidden}
+.pic_list li a img{ width:100%;}
+
+.pic_list li a.txt {display:block; line-height:22px;padding:10px;}
+.pic_list li a.txt span{ display:block; font-size:14px; color:#999}
+.pic_list li a.txt b{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:18px; font-weight:normal}
+
+.big_pic img{ width:100%}
+.intro{width:100%; background:url(../Images/bg.png); padding:80px 0;}
+.wk_pics{ float:left; width:400px; padding-right:50px}
+.wk_pics dl{ float:left; width:40%; margin-right:5%; margin-top:10px;}
+.wk_pics dl dt{  width:100%; padding:0; overflow:hidden;height:200px;}
+.wk_pics dl dd{ text-align:center; line-height:20px; padding-top:5px; font-size:14px}
+
+.wk_txt h3{ font-size:28px; color:#000; margin-bottom:20px;}
+.wk_txt_ct{ line-height:24px; font-size:14px}
+
+.result{ line-height:18px; margin:40px auto; font-size:14px}
+.result h3{ font-size:16px; margin-bottom:20px;}
+.result b{color:#FF3300}
+.result li{ height:auto; width:100%; overflow:hidden;margin-bottom:20px;}
+.result a{ text-decoration:underline; font-size:16px; display:block; height:23px}
+.result span{ color:#999999; font-family:Arial;}
+.result p{ font-family:"宋体"; display:block}
+.red{ color:#FF3300}
+.gallery{ padding:40px 0}
+.gallery li{ float:left; width:25%}
+.gallery li img{ width:100%}
+
+
+@media (min-width: 1400px) {
+	.list1 dd p{ font-size:14px;line-height:210%;}
+}
+@media (min-width: 1600px) {
+	.list1 dd div{margin:50px 100px;}
+	.list1 dd h3{ font-size:30px;}
+	.list1 dd p{ font-size:16px;line-height:220%;}
+}
+@media (min-width: 1800px) {
+	.list1 dd div{margin:100px 200px;}
+	.list1 dd h3{ font-size:32px;}
+	.list1 dd p{ font-size:18px;line-height:230%;}
+}
+@media (min-width:2000px) {
+	.list1 dd div{margin:150px 300px;}
+	.list1 dd h3{ font-size:34px;}
+	.list1 dd p{ font-size:20px;line-height:240%;}
+}
+@media (max-width: 1200px) {
+	.news_pannel{ margin:40px 20px}
+	.list0{ margin-left:10px}
+	.list1 dd p{ font-size:14px; line-height:20px;}
+}
+@media (max-width: 1000px) {
+	.list1 dd p{ font-size:12px; line-height:18px;}
+}
+@media (max-width: 800px) {
+	.gallery li{width:50%}
+	.list1 dd{ float:none; width:100%;}
+	.list1 dd div{ margin:20px;}
+	.list1 dt{ float:none;width:100%; min-height:200px}
+}
+
+
+
+

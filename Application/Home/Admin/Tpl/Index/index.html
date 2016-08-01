@@ -1,0 +1,60 @@
+<include file="Base/head"/>
+<include file="Base/top"/>
+<include file="Base/left"/>
+
+<block name="body">
+ <div id="dcMain">
+   <!-- 当前位置 -->
+<div id="urHere">后台文章管理中心<b>></b><strong>文章列表</strong> </div>   <div class="mainBox" style="height:auto!important;height:550px;min-height:550px;">
+        <h3><a href="{:U(GROUP_NAME.'/Blog/blog')}" class="actionBtn add">添加文章</a>文章列表</h3>
+
+        <div id="list">
+    <table width="100%" border="0" cellpadding="8" cellspacing="0" class="tableBasic">
+     <tr>
+      <th width="22" align="center"><input name='chkall' type='checkbox' id='chkall' onclick='selectcheckbox(this.form)' value='check'></th>
+      <th width="40" align="center">编号</th>
+      <th align="left">文章名称</th>
+      <th width="150" align="center">文章分类</th>
+      <th width="80" align="center">添加日期</th>
+      <th width="80" align="center">操作</th>
+     </tr>
+
+	<foreach name='blog' item='v'>
+          <tr>
+      <td align="center"><input type="checkbox" name="checkbox[]" value="10" /></td>
+      <td align="center">{$v.id}</td>
+      <td>{$v.title}</td>
+      <td align="center">{$v.cid}</td>
+      <td align="center">{$v.time|date='Y-m-d',###}</td>
+      <td align="center">
+              <a href="article.php?rec=edit&id=10">编辑</a> | <a href="article.php?rec=del&id=10">删除</a>
+             </td>
+     </tr>
+	</foreach>
+
+         
+         </table>
+    </div>
+    <div class="clear"></div>
+    <div class="pager">总计 10 个记录，共 1 页，当前第 1 页 | <a href="article.php?page=1">第一页</a> 上一页 下一页 <a href="article.php?page=1">最末页</a></div>           </div>
+ </div>
+ <div class="clear"></div>
+
+
+ <script type="text/javascript">
+ 
+ onload = function()
+ {
+   document.forms['action'].reset();
+ }
+
+ function douAction()
+ {
+     var frm = document.forms['action'];
+
+     frm.elements['new_cat_id'].style.display = frm.elements['action'].value == 'category_move' ? '' : 'none';
+ }
+ 
+ </script>
+</block>
+<include file="Base/foot"/>
