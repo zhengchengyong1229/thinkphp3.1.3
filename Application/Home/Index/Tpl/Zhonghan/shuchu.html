@@ -1,0 +1,91 @@
+
+<extend name="Base/common"/>
+
+<block name="body">
+
+<link href="__PUBLIC__/yi/css/content.css" rel="stylesheet" type="text/css" />
+
+<div class="ah">
+    <div class="bg ah">
+		<div class="wrap cf list0">
+		<ul>
+			<dl>
+				<dt><a href=""><img src="__PUBLIC__/images/pixel.gif" data-original="__PUBLIC__/images/1.jpg" alt="" class="lazy"/></a><dt>
+				<dd><h4 class=""><a href="" title="">剧版《致青春》定档711 爆款IP领跑暑期档</a></h4>
+				</dd>
+			</dl>
+        </ul>
+		<ul>
+			<dl>
+				<dt><a href=""><img src="__PUBLIC__/images/pixel.gif" data-original="__PUBLIC__/images/2.jpg" alt="" class="lazy"/></a><dt>
+				<dd><h4 class=""><a href="" title="">华视娱乐出席2016上海电影节“互联网电影上海高峰会”业内领军人物反思网络热词</a></h4>
+				</dd>
+			</dl>
+        </ul>
+		<ul>
+			<dl>
+				<dt><a href=""><img src="__PUBLIC__/images/pixel.gif" data-original="__PUBLIC__/images/3.jpg" alt="" class="lazy"/></a><dt>
+				<dd><h4 class=""><a href="" title="">最青春剧组红毯吸睛 《六弄咖啡馆》上影节红毯首聚</a></h4>
+				</dd>
+			</dl>
+        </ul>
+		<ul>
+			<dl>
+				<dt><a href=""><img src="__PUBLIC__/images/pixel.gif" data-original="__PUBLIC__/images/4.jpg" alt="" class="lazy"/></a><dt>
+				<dd><h4 class=""><a href="/index.php/content/index/pid/5/cid/189.html" title="">《六弄咖啡馆》口碑爆棚 获上影节传媒关注两大殊荣</a></h4>
+				</dd>
+			</dl>
+        </ul>
+		<ul>
+			<dl>
+				<dt><a href=""><img src="__PUBLIC__/images/pixel.gif" data-original="__PUBLIC__/images/5.jpg" alt="" class="lazy"/></a><dt>
+				<dd><h4 class=""><a href="" title="">阿里影业携手华视盛典 《激荡三十年》将搬上大银幕</a></h4>
+				</dd>
+			</dl>
+        </ul>
+		<ul>
+			<dl>
+				<dt><a href=""><img src="__PUBLIC__/images/pixel.gif" data-original="__PUBLIC__/images/1.jpg" alt="" class="lazy"/></a><dt>
+				<dd><h4 class=""><a href="" title="">华视娱乐出品台湾最强青春IP《六弄咖啡馆》 曝“弄青春”先导预告及海报</a></h4>
+				</dd>
+			</dl>
+        </ul>
+		</div>
+	</div>
+</div>
+<script src="__PUBLIC__/yi/js/jquery.lazyload.min.js" language="javascript"></script>
+<script src="__PUBLIC__/yi/js/blocksit.min.js" language="javascript"></script>
+<script>
+<!--
+$(function() {
+    $("img.lazy").lazyload({
+        load:rz
+    });
+	function rz(){
+		var w=$(window).width();
+		var nc=4;
+		if(w>=1200){
+			nc=4;
+		}else if(w<1200 && w>=800){
+			nc=3;
+		}else if(w<800 && w>=400){
+			nc=2;
+		}else{
+			nc=1;
+		}
+		$('.list0').BlocksIt({
+			numOfCol:nc,
+			offsetX: 10,
+			offsetY: 10,
+			blockElement: '.list0 ul'
+		});
+	}
+	$(window).resize(rz);
+	rz();
+});	
+-->
+</script></div>
+
+
+
+</block>

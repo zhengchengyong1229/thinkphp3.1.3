@@ -1,0 +1,23 @@
+<include file="Base/head"/>
+<include file="Base/top"/>
+<include file="Base/left"/>
+<block name="body">
+ <div id="dcMain">
+   <!-- 当前位置 -->
+<div id="urHere">后台 管理中心<b>></b><strong>应用列表</strong> </div>   <div class="mainBox" style="height:auto!important;height:550px;min-height:550px;">
+        <h3><a href="{:U('Admin/Rbac/addNode')}" class="actionBtn add">添加应用</a>应用列表</h3>
+   
+	 <foreach name='node' item='app'>
+            <p style="font-size:18px;">
+				<strong>{$app.title}</strong> | 
+				<a href="{:U('Admin/Rbac/addNode',array('pid'=>$app['id'],'level'=>2))}">添加控制器</a>
+			</p>
+
+	 </foreach>
+          
+          
+           </div>
+ </div>
+ <div class="clear"></div>
+</block>
+<include file="Base/foot"/>

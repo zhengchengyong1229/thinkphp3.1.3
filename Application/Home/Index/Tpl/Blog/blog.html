@@ -1,0 +1,30 @@
+<extend name="Base/common"/>
+
+<block name="body">
+
+    <!-- 加载编辑器的容器 -->
+    <textarea id="container" name="content" type="text/plain">
+        
+    </textarea>
+    <!-- 配置文件 -->
+    <script type="text/javascript" src="__ROOT__/Data/Ueditor/ueditor.config.js"></script>
+    <!-- 编辑器源码文件 -->
+    <script type="text/javascript" src="__ROOT__/Data/Ueditor/ueditor.all.min.js"></script>
+    <!-- 实例化编辑器 -->
+    <script type="text/javascript">
+        var ue = UE.getEditor('container');
+		 var UEDITOR_HOME_URL = "__ROOT__/Data/Ueditor/";　　//从项目的根目录开始
+    </script>
+	<script type="text/javascript">
+		UE.getEditor('container',{
+			autoClearinitialContent:true,
+			wordCount:false'
+			elementPathEnabled:false,
+			initialFrameHeight:300,
+			//imageUrl:"",
+			//imagePath:''
+		})
+	</script>
+
+
+ </block>

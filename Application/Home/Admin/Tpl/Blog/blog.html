@@ -17,7 +17,7 @@
  <div id="dcMain">
    <!-- 当前位置 -->
 <div id="urHere">后台添加管理中心<b>></b><strong>添加文章</strong> </div>   <div class="mainBox" style="height:auto!important;height:550px;min-height:550px;">
-            <h3><a href="article.html" class="actionBtn">文章列表</a>添加文章</h3>
+            <h3><a href="{:U(GROUP_NAME.'/Index/index')}" class="actionBtn">文章列表</a>添加文章</h3>
     <form action="{:U(GROUP_NAME.'/Blog/addBlog')}" method="post" enctype="multipart/form-data">
      <table width="100%" border="0" cellpadding="8" cellspacing="0" class="tableBasic">
       <tr>
@@ -32,7 +32,41 @@
         <select name="cid">
          <option value="9"> 产业动态</option>
          <option value="10"> 娱乐聚焦</option>
+		 <option value="11"> 威海片场</option>
+		 <!-- <option value="12"> 政策解读</option> -->
 		 <option value="13"> 院线电影</option>
+         <option value="14"> 合作交流</option>
+		 <option value="15"> 影视输出</option>
+         <option value="16"> 技术引进</option>
+		 <option value="17"> 作品引进</option>
+		 <!-- <option value="18"> 创意团队</option>
+		 <option value="19"> 外景地</option>
+         <option value="20"> 录音棚</option>
+		 <option value="21"> 摄影棚</option>
+         <option value="22"> 后处理</option>
+		 <option value="23"> 创客空间</option>
+         <option value="24"> 入驻企业</option>
+		 <option value="25"> 拍摄设备</option>
+		 <option value="26"> 辅助设备</option>
+         <option value="27"> 后期设备</option>
+		 <option value="28"> 其他设备</option>
+         <option value="29"> 交通工具</option> -->
+		 <option value="30"> 二手交易</option>
+         <option value="31"> 项目展示</option>
+		 <option value="32"> 影视合作</option>
+         <option value="33"> 产业融资</option>
+		 <option value="34"> IP 交流</option>
+         <option value="35"> 剧本交易</option>
+		 <!-- <option value="36"> 全职招聘</option>
+		 <option value="37"> 全职简历</option>
+         <option value="38"> 群演招聘</option>
+		 <option value="39"> 群演说明</option> -->
+		 <option value="40"> 相关培训</option>
+         <!-- <option value="41"> 威影发展</option> -->
+		 <option value="42"> 威影作品</option>
+         <option value="43"> 威影人才</option>
+		 <option value="44"> 非遗影像</option>
+		 <option value="45"> 威海影像志</option>
          <option value="46"> 原创影视</option>
 		 <option value="47"> 国产影视</option>
          <option value="48"> 欧美影视</option>
@@ -46,19 +80,20 @@
         <input type="text" name="click" value="100" size="80" class="inpMain" />
        </td>
       </tr>
+	  <tr>
+       <td align="right">标题图</td>
+       <td>
+        <input type="file" name="file" size="38" class="inpFlie" />
+        <img src="__PUBLIC__/images/icon_no.png"></td>
+      </tr>
        <tr>
        <td align="right" valign="top">文章描述</td>
        <td>
                 <textarea id="content" name="content"></textarea>
        </td>
       </tr>
+      
       <!-- <tr>
-       <td align="right">缩略图</td>
-       <td>
-        <input type="file" name="image" size="38" class="inpFlie" />
-        <img src="__PUBLIC__/images/icon_no.png"></td>
-      </tr>
-      <tr>
        <td align="right">关键字</td>
        <td>
         <input type="text" name="keywords" value="" size="50" class="inpMain" />
@@ -73,9 +108,6 @@
       <tr>
        <td></td>
        <td>
-        <input type="hidden" name="token" value="7e4a88fb" />
-        <input type="hidden" name="image" value="">
-        <input type="hidden" name="id" value="">
         <input name="submit" class="btn" type="submit" value="提交" style="margin-left:45%;" />
        </td>
       </tr>

@@ -1,0 +1,59 @@
+<include file="Base/head"/>
+<include file="Base/top"/>
+<include file="Base/left"/>
+<block name="body">
+ <div id="dcMain">
+   <!-- 当前位置 -->
+<div id="urHere">后台 管理中心<b>></b><strong>文章分类</strong> </div>   <div class="mainBox" style="height:auto!important;height:550px;min-height:550px;">
+        <h3><a href="addcid.html" class="actionBtn add">添加分类</a>文章分类</h3>
+    <table width="100%" border="0" cellpadding="8" cellspacing="0" class="tableBasic">
+     <tr>
+        <th width="120" align="left">类别</th>
+      <th align="left">名称</th>
+       <th width="60" align="center">ID</th>
+        <th width="80" align="center">操作</th>
+      </tr>
+	  <foreach name="cid" item="v">
+        <tr>
+        <td align="left">
+			 <?php switch($v['cid']){
+		case 1:
+		echo 影视资讯;
+		break;
+		case 2:
+		echo 中韩交流;
+		break;
+		case 3:
+		echo 影视基地;
+		break;
+		case 4:
+		echo 设备租赁;
+		break;
+		case 5:
+		echo 项目合作;
+		break;
+		case 6:
+		echo 影视人才;
+		break;
+		case 7:
+		echo 影视档案;
+		break;
+		case 8:
+		echo 影视展播;
+		break;
+		default:
+		echo 未找到分类;
+		break;
+	  }  ?>
+		</td>
+        <td>{$v.tname}</td>
+        <td align="center">{$v.id}</td>
+        <td align="center"><a href="article_category.php?rec=edit&cat_id=1">编辑</a> | <a href="article_category.php?rec=del&cat_id=1">删除</a></td>
+      </tr>
+	  </foreach>
+          </table>
+           </div>
+ </div>
+ <div class="clear"></div>
+</block>
+<include file="Base/foot"/>

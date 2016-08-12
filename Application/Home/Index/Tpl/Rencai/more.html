@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>威海影视产业平台-招聘</title>
+
+<script src="__PUBLIC__/lie/js/FileManagerClass.min_9b0025fd.js"></script>
+<link rel="stylesheet" href="__PUBLIC__/lie/css/zhaopin_list_gray_557f9601.css" />
+<link rel="stylesheet" href="__PUBLIC__/lie/css/common_21a226d7.css" />
+
+<include file="Public/head"/>  
+</head>
+<include file="Public/header"/>
+
+<body id="sojob">
+
+<div class="container" style="background:white;margin-top:20px;">
+	<div class="wrap" style="width:980px; margin-top:20px;">
+		<div class="job-content">
+			<div class="sojob-result">
+				<ul class="sojob-list">   
+					
+					<volist name="qlist" id="vo">
+						<li>
+							<i class="icon icon-yellow-triangle" title="企业直招职位保证真实有效"><b>企</b></i>    
+							<div class="sojob-item-main clearfix">
+								<div class="job-info" >
+									<h3 title="{$vo.biaoti}" >
+										<a href="{:U(Index/Rencai/alist)}" data-promid="imscid=R000000075" target="_blank">
+											{$vo.biaoti}
+										</a>  
+									</h3>
+									  
+									<p class="condition clearfix" title="">
+										<span class="text-warning">
+											<?php switch($vo['yuexin']){ case 0: echo '面议'; break; case 1: echo '2000元-4000元'; break; case 2: echo '4001元-6000元'; break; case 3: echo '6001元-8000元'; break; case 4: echo '8001元-10000元'; break; case 5: echo '10000元以上'; break;} ?>
+										</span>
+										
+										<a data-selector="data-url" class="area">
+											<?php switch($vo['address']){ case 0: echo '威海'; break; case 1: echo '文登'; break; case 2: echo '荣成'; break; case 3: echo '乳山'; break; case 4: echo '其他'; break;} ?>
+										</a>
+										
+										<span class="edu">
+											<?php switch($vo['xueli']){ case 0: echo '学历不限'; break; case 1: echo '高中以上'; break; case 2: echo '大专以上'; break; case 3: echo '本科以上'; break; case 4: echo '硕士以上'; break; case 5: echo '硕博士以上'; break;} ?>
+										</span>
+										<span>
+											<?php switch($vo['jingyan']){ case 0: echo '经验不限'; break; case 1: echo '1年以上经验'; break; case 2: echo '2年以上经验'; break; case 3: echo '3年以上经验'; break; case 4: echo '5年以上经验'; break; case 5: echo '10年以上经验'; break;} ?>
+										</span>
+									</p>
+									<p class="time-info clearfix">
+										<time>发布时间：{$vo.regtime|date='Y-m-d H:i:s',###}</time>
+									</p>
+								</div>
+								
+								
+								<div class="company-info" >
+									<p class="company-name">
+										<a title="{$vo.xname}" href="" target="_blank">
+										{$vo.xname}</a>
+									</p>
+									<p class="field-financing">
+										<span>{$vo.jingying}</span>	
+									</p>
+								  
+									<p class="temptation clearfix">
+									
+										<?php if(isset($vo['wuxian'])){echo "<span>五险一金</span>";} ?>
+												
+										<?php if(isset($vo['jieri'])){echo "<span>节日福利</span>";} ?>
+												
+										<?php if(isset($vo['jiaotong'])){echo "<span>交通补助</span>";} ?>
+												
+										<?php if(isset($vo['tongxun'])){echo "<span>通讯补助</span>";} ?>
+												
+										<?php if(isset($vo['canbu'])){echo "<span>餐补</span>";} ?>
+												
+										<?php if(isset($vo['baochi'])){echo "<span>包吃</span>";} ?>
+												
+										<?php if(isset($vo['baozhu'])){echo "<span>包住</span>";} ?>
+												
+										<?php if(isset($vo['fenhong'])){echo "<span>年底分红</span>";} ?>
+												
+										<?php if(isset($vo['nianjia'])){echo "<span>带薪年假</span>";} ?>
+												
+										<?php if(isset($vo['tijian'])){echo "<span>定期体检</span>";} ?>
+												
+									</p>
+								</div>
+							</div>
+						</li>
+					</volist>
+				</ul>
+
+				<div style="text-align:center;margin:20px 0px;">{$page}</div>
+				  
+			</div>
+		</div>
+	</div>
+</div>
+
+<include file="Public/footer"/>
+
+
+</body>
+</html>

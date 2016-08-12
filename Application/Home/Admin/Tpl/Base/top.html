@@ -1,9 +1,9 @@
 <div id="dcWrap"> 
 	<div id="dcHead">
 		<div id="head">
-			<div class="logo"><a href="index.html"><img src="__PUBLIC__/images/dclogo.gif" alt="logo"></a></div>
+			<div class="logo"><p style="font-size:16px;color:white;text-align:center;padding:8px 0px;"><strong>后台管理中心</strong></p></div>
 			<div class="nav">
-				<ul>
+				<!-- <ul>
 					<li class="M">
 						<a href="JavaScript:void(0);" class="topAdd">新建</a>
 						<div class="drop mTopad">
@@ -20,16 +20,18 @@
 					<li><a href="index.php?rec=clear_cache">清除缓存</a></li>
 					<li><a href="http://www.mycodes.net" target="_blank">帮助</a></li>
 					<li class="noRight"><a href="module.html">DouPHP+</a></li>
-				</ul>
+				</ul> -->
 				<ul class="navRight">
 					<li class="M noLeft">
-						<a href="JavaScript:void(0);">您好，admin</a>
+						<foreach name="top" item="v">
+						<a href="JavaScript:void(0);">您好，{$v.username}</a>
+						</foreach>
 						<div class="drop mUser">
 							<a href="manager.php?rec=edit&id=1">编辑我的个人资料</a>
 							<a href="manager.php?rec=cloud_account">设置云账户</a>
 						</div>
 					</li>
-					<li class="noRight"><a href="login.php?rec=logout">退出</a></li>
+					<li class="noRight"><a href="{:U('Admin/Index/logout')}">退出</a></li>
 				</ul>
 			</div>
 		</div>

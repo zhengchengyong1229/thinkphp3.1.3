@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>填写资料</title>
+
+<!--#set var='compatible' value=''-->
+
+<script src="__PUBLIC__/lie/js/loader_6de14b93.js"></script>
+<script src="__PUBLIC__/lie/js/common_dcf5528f.js"></script>
+<link rel="stylesheet" href="__PUBLIC__/lie/css/common_246ab9a7.css" />
+<link rel="stylesheet" href="__PUBLIC__/lie/css/page.job_e41bc26f.css" />
+<style type="text/css">
+table{border-collapse: collapse;}
+td{width:100px;padding:5px;}
+tr{
+	display:block; /*将tr设置为块体元素*/
+	margin:15px 0;  /*设置tr间距为2px*/
+	}
+</style>
+
+
+<script type="text/javascript">
+	window.UEDITOR_HOME_URL = '__ROOT__/Data/Ueditor/';
+	window.onload = function () {
+		window.UEDITOR_CONFIG.initialFrameHeight = 400;
+		window.UEDITOR_CONFIG.initialFrameWidth = 900;
+		window.UEDITOR_CONFIG.imageUrl = "{:U(GROUP_NAME.'/Member/upload')}";
+		window.UEDITOR_CONFIG.imagePath = '__ROOT__/uploads/';
+		UE.getEditor('content');
+	}
+</script>
+<script src="__ROOT__/Data/Ueditor/ueditor.config.js"></script>
+<script src="__ROOT__/Data/Ueditor/ueditor.all.min.js"></script>
+
+
+
+
+<include file="Public/head"/>  
+</head>
+<include file="Public/header"/>
+<body data-navbar="job">
+
+	
+	<div id="job-view-enterprise">
+		<div class="wrap clearfix" style="width:980px;">
+			
+			<div class="main" style="margin-bottom:0px;width:980px;">
+				<div class="about-position" style="margin-bottom:10px;">
+
+					<div class="title-info" style="width:740px;">
+						
+						<h1 title="">填写资料</h1>
+						<h3>
+						
+							<a href="" data-promid="" target="_blank"
+								title=""></a>
+						</h3>
+						
+						<span class="triangle"></span>
+					</div>
+	
+
+					<form action="{:U(GROUP_NAME.'/Member/addgedit')}" method="post" enctype="multipart/form-data" style="margin-top:30px;padding:0px 30px;" name='gedit' item='v'>
+						<table>
+							<tr>
+								<td style="text-align: center;font-size: 20px;">姓名:</td>
+								<td><input type="text" name="xname" style="line-height: 25px;width: 300px;"/></td>
+							</tr>
+							<tr>
+								<td style="text-align: center;font-size: 20px;">籍贯:</td>
+								<td><input type="text" name="jiguan" style="line-height: 25px;width: 300px;"/></td>
+							</tr>
+							<tr>
+								<td style="text-align: center;font-size: 20px;">生日:</td>
+								<td><input type="date" name="shengri" style="line-height: 25px;width: 300px;"/></td>
+							</tr>
+							<tr>
+								<td style="text-align: center;font-size: 20px;">民族：</td>
+								<td><input type="text" name="minzu" style="line-height: 25px;width: 300px;"/></td>
+							</tr>
+							<tr>
+								<td style="text-align: center;font-size: 20px;">婚姻：</td>
+								<td style="width:300px;">
+									<input type="radio" name="hunyin" value="1" checked="checked" style="width:auto;"/>&nbsp;<strong>未婚</strong>&nbsp;
+									<input type="radio" name="hunyin" value="0" style="width:auto;"/>&nbsp;<strong>已婚</strong>
+								</td>
+							</tr>
+							<tr>
+								<td style="text-align: center;font-size: 20px;">政治面貌：</td>
+								<td style="width:120px;">
+									<select name="mianmao"  style="width:80px;font-size:16px;">
+									  <option value ="0">群众</option>
+									  <option value ="1">团员</option>
+									  <option value ="2">党员</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td style="text-align: center;font-size: 20px;">电话：</td>
+								<td><input type="text" name="tel" style="line-height: 25px;width: 300px;"/></td>
+							</tr>
+							<tr>
+								<td style="text-align: center;font-size: 20px;">住址：</td>
+								<td><input type="text" name="address" style="line-height: 25px;width: 300px;"/></td>
+							</tr>
+							<tr>
+								<td style="text-align: center;font-size: 20px;">头像：</td>
+								<td><input type="file" name="file" style="line-height: 25px;width: 300px;"/></td>
+							</tr>
+							<tr>
+								<td colspan="2" style="width:960px;text-align: center;font-size: 20px;">个人简介</td>
+							</tr>
+							<tr>
+								<td colspan="2"><textarea name="content" id="content"></textarea></td>
+							</tr>
+							<!-- <tr>
+								<td style="text-align: center;font-size: 20px;">自我评价</td>
+								<td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+							</tr> -->
+							<tr>
+								<td colspan="2" style="width:960px;text-align: center;font-size: 20px;">
+									<input type="submit" name="submit" value="提&nbsp;交" style="width:100px;line-height:35px;border:0;background-image:url(/Public/images/nv1.png);"/>	
+								</td>
+							</tr>
+						</table>
+					</form>
+
+			
+					
+					
+					
+					<!-- <div class="job-resume-block "
+						data-selector="job-resume-block"></div>
+						<div class="report-area">
+							<a class="close-btn" href="javascript:;" data-selector="report-close-btn">&times;</a>
+							<h4>威海影视产业平台温馨提示：</h4>
+							<p>
+								如在投递及面试过程中遇到招聘方的任何收费行为（ 如培训费、 体检费、 资料费、 置装费、 押金等），则存在诈骗风险，请您务必提高警惕。
+								
+								
+							</p>
+						</div>
+					</div>
+ -->
+				
+				</div>
+			
+		</div>
+		
+	</div>
+	
+
+<include file="Public/footer"/>
+
+</body>
+</html>
+

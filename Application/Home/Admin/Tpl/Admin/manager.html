@@ -1,0 +1,33 @@
+<include file="Base/head"/>
+<include file="Base/top"/>
+<include file="Base/left"/>
+<block name="body">
+ <div id="dcMain">
+   <!-- 当前位置 -->
+<div id="urHere">后台 管理中心<b>></b><strong>网站管理员</strong> </div>   <div id="manager" class="mainBox" style="height:auto!important;height:550px;min-height:550px;">
+    <h3><a href="addmanager.html?rec=add" class="actionBtn">添加管理员</a>网站管理员</h3>
+        <table width="100%" border="0" cellpadding="8" cellspacing="0" class="tableBasic">
+     <tr>
+      <th width="30" align="center">编号</th>
+      <th align="left">管理员名称</th>
+      <th align="center">密码</th>
+      <th align="center">添加时间</th>
+      <th align="center">操作</th>
+     </tr>
+
+	<foreach name='info' item='v'>
+      <tr>
+      <td align="center">{$v.id}</td>
+      <td>{$v.username}</td>
+      <td align="center">{$v.password}</td>
+      <td align="center">{$v.regtime|date='Y-m-d',###}</td>
+      <td align="center"><a href="{:U('Admin/Admin/delete',array('id'=>$v['id']))}">删除</a></td>
+     </tr>
+	</foreach>
+
+         </table>
+                       </div>
+ </div>
+ <div class="clear"></div>
+</block>
+<include file="Base/foot"/>

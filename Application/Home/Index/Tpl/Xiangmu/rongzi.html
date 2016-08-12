@@ -1,0 +1,104 @@
+
+<extend name="Base/common"/>
+<block name="header">
+<link href="__PUBLIC__/yi/css/content.css" rel="stylesheet" type="text/css" />
+</block>
+<block name="body">
+
+<style type="text/css">
+.ah{height:auto; overflow:hidden}
+</style>
+
+
+<div class="ah">
+    <div class="list1">
+   
+		<dl class="fr">
+			<dt pic="__PUBLIC__/images/1.jpg" style="background:url(__PUBLIC__/images/1.jpg) no-repeat center top; background-size:cover"><a href="/index.php/content/index/pid/2/cid/20.html"></a></dt>
+			<dd>
+				<div>
+					<h3><a href="/index.php/content/index/pid/2/cid/20.html" title="致我们终将逝去的青春 (2013)">致我们终将逝去的青春 (2013)</a></h3>
+					<p>改编自作家辛夷坞的同名小说，由香港导演关锦鹏担任监制，内地编剧李樯改编剧本，海峡两岸演员赵又廷、韩庚、杨子姗、江疏影、张瑶、刘雅瑟、包贝尔、郑恺、黄明、王嘉佳、佟丽娅等主演，王菲演唱主题曲《致青春》，于2013年4月26日全国公映。内地最终票房为7.2亿。 <a href="/index.php/content/index/pid/2/cid/20.html" title="致我们终将逝去的青春 (2013)">[详情]</a></p>
+				</div>
+			</dd>    
+		</dl>
+		<dl >
+			<dt pic="__PUBLIC__/images/1.jpg" style="background:url(__PUBLIC__/images/1.jpg) no-repeat center top; background-size:cover"><a href="/index.php/content/index/pid/2/cid/141.html"></a></dt>
+			<dd>
+				<div>
+					<h3><a href="/index.php/content/index/pid/2/cid/141.html" title="上海堡垒 (待映)">上海堡垒 (待映)</a></h3>
+					<p>中国首部真正科幻爱情电影，江南经典原著改编，“第六代导演”代表人物滕华涛导演联手好莱坞顶级视效团队全程操刀，上演“世界毁灭的边缘，一场青春热血的世纪爱恋”！ <a href="/index.php/content/index/pid/2/cid/141.html" title="上海堡垒 (待映)">[详情]</a></p>
+				</div>
+			</dd>    
+		</dl>
+
+	</div>
+</div>
+
+<script>
+<!--
+$(function(){
+	var h=0;
+	function rz(){
+/*		$('.list1 dd').each(function(){
+			if($(this).height()>h){
+				h=$(this).height();
+			}
+		});
+		$('.list1 dl').height(h);*/
+
+		var sw=$(window).width();
+		var maxh=$('.list1 dt').width()/5 * 2;
+		if(sw>800){
+			$('.list1 dd').each(function(){
+				if($(this).height()>maxh){
+					maxh=$(this).height();
+				}
+			});
+			$('.list1 dt').height(maxh);
+		}else{
+			$('.list1 dt').height($('.list1 dt').width()/5 * 2);
+		}
+	}
+	rz();
+	$(window).resize(rz);
+});
+-->
+</script>
+
+
+<script>
+<!--
+$(function(){
+	$(".mbi_nav").click(function(e){
+		if($(".hid_menu").is(':hidden'))
+			$(".hid_menu").slideDown();
+		else
+			$(".hid_menu").slideUp();	
+		e.stopPropagation();		
+	});
+	$("body").click(function(e){
+		$(".hid_menu").hide();
+		e.stopPropagation();
+	});
+	$('.ewm a').click(function(){
+		$('.ewm').hide();
+	});
+	$('.wx').click(function(){
+		$('.ewm').show();
+	});
+	
+});
+
+
+-->
+</script>
+
+
+
+
+
+
+
+
+</block>
