@@ -27,6 +27,8 @@ tr{
 		window.UEDITOR_CONFIG.initialFrameWidth = 900;
 		window.UEDITOR_CONFIG.imageUrl = "<?php echo U(GROUP_NAME.'/Member/upload');?>";
 		window.UEDITOR_CONFIG.imagePath = '__ROOT__/uploads/';
+		window.UEDITOR_CONFIG.imageCompressEnable = true;
+		window.UEDITOR_CONFIG.imageCompressBorder = 616;
 		UE.getEditor('content');
 	}
 </script>
@@ -275,8 +277,24 @@ tr{
 								</td>
 							</tr>
 							<tr>
+								<td style="text-align: center;font-size: 20px;">联系人：</td>
+								<td><input type="text" name="lianxiren" style="line-height: 25px;width: 300px;"/></td>
+							</tr>
+							<tr>
 								<td style="text-align: center;font-size: 20px;">联系电话：</td>
 								<td><input type="text" name="tel" style="line-height: 25px;width: 300px;"/></td>
+							</tr>
+							<tr>
+								<td style="text-align: center;font-size: 20px;">专业要求：</td>
+								<td><input type="text" name="zhuanye" style="line-height: 25px;width: 300px;"/></td>
+							</tr>
+							<tr>
+								<td style="text-align: center;font-size: 20px;">所属部门：</td>
+								<td><input type="text" name="bumen" style="line-height: 25px;width: 300px;"/></td>
+							</tr>
+							<tr>
+								<td style="text-align: center;font-size: 20px;">汇报对象：</td>
+								<td><input type="text" name="shangji" style="line-height: 25px;width: 300px;"/></td>
 							</tr>
 							<tr>
 								<td style="text-align: center;font-size: 20px;">福利：</td>

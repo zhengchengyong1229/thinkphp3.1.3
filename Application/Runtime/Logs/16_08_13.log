@@ -1,0 +1,1382 @@
+[ 2016-08-13T10:45:45+08:00 ] 0.0.0.0 /index.php/Index/Rencai/zhaopin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-13T10:45:47+08:00 ] 0.0.0.0 /index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-13T10:45:49+08:00 ] 0.0.0.0 /index.php/Index/Rencai/zhaopin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-13T10:46:42+08:00 ] 0.0.0.0 /index.php/Index/Rencai/zhaopin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-13T10:47:51+08:00 ] 0.0.0.0 /index.php/Index/Rencai/addzhaopin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: canbu D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 42 行.
+NOTIC: [8] Undefined index: baochi D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 43 行.
+NOTIC: [8] Undefined index: baozhu D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: fenhong D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 45 行.
+NOTIC: [8] Undefined index: nianjia D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 46 行.
+NOTIC: [8] Undefined index: tijian D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `think_zhaopin` [ RunTime:0.015001s ]
+SQL: INSERT INTO `think_zhaopin` (`pid`,`biaoti`,`address`,`xueli`,`jingyan`,`renshu`,`yuexin`,`tel`,`wuxian`,`jieri`,`jiaotong`,`tongxun`,`canbu`,`baochi`,`baozhu`,`fenhong`,`nianjia`,`tijian`,`regtime`,`content`,`bumen`,`lianxiren`,`zhuanye`,`shangji`) VALUES (28,'招聘网站编辑人员',0,2,2,'3',2,'06315275058',1,1,1,1,null,null,null,null,null,null,1471056471,'<p><img src=\"/uploads/20160813/1471056467929185.jpg\" title=\"1471056467929185.jpg\" alt=\"1-1412311T124T0.jpg\"/></p>','编辑�\�','杨老师','新闻专业','编辑部总监') [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.077005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077005s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-13T10:47:52+08:00 ] 0.0.0.0 /index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-13T10:48:04+08:00 ] 0.0.0.0 /index.php/Index/Rencai/more.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_zhaopin` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_zhaopin` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_zhaopin` ORDER BY time DESC LIMIT 0,20   [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'time' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `think_zhaopin` ORDER BY time DESC LIMIT 0,20  
+SQL: SELECT * FROM `think_zhaopin` `zhaopin`,`think_user_qiye` `qiye` WHERE ( qiye.pid=zhaopin.pid )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-13T10:48:07+08:00 ] 0.0.0.0 /index.php/Rencai/alist/id/5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_zhaopin` [ RunTime:0.002001s ]
+SQL: SELECT * FROM `think_zhaopin` `zhaopin`,`think_user_qiye` `qiye` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: vo D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Runtime\Cache\Index\9914183dba6f06365f968d3192fe09f6.php 第 207 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-13T10:52:20+08:00 ] 0.0.0.0 /index.php/Index/Rencai/zhaopin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-13T10:52:22+08:00 ] 0.0.0.0 /index.php/Index/Rencai/zhaopin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-13T10:52:22+08:00 ] 0.0.0.0 /index.php/Index/Rencai/zhaopin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-13T10:55:20+08:00 ] 0.0.0.0 /index.php/Index/Rencai/zhaopin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001001s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-13T10:55:23+08:00 ] 0.0.0.0 /index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-13T10:55:24+08:00 ] 0.0.0.0 /index.php/Index/Member/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-13T10:55:27+08:00 ] 0.0.0.0 /index.php/Index/Member/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` = 'qwe' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: lock D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\MemberAction.class.php 第 224 行.
+SQL: UPDATE `think_user` SET `logintime`=1471056927,`loginip`='0.0.0.0' WHERE ( `id` = 28 ) [ RunTime:0.001000s ]
+
+[ 2016-08-13T10:55:28+08:00 ] 0.0.0.0 /index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-13T10:55:30+08:00 ] 0.0.0.0 /index.php/Index/Rencai/zhaopin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-13T10:56:39+08:00 ] 0.0.0.0 /index.php/Index/Rencai/addzhaopin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: canbu D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 42 行.
+NOTIC: [8] Undefined index: baochi D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 43 行.
+NOTIC: [8] Undefined index: baozhu D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: fenhong D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 45 行.
+NOTIC: [8] Undefined index: nianjia D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 46 行.
+NOTIC: [8] Undefined index: tijian D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `think_zhaopin` [ RunTime:0.002000s ]
+SQL: INSERT INTO `think_zhaopin` (`pid`,`biaoti`,`address`,`xueli`,`jingyan`,`renshu`,`yuexin`,`tel`,`wuxian`,`jieri`,`jiaotong`,`tongxun`,`canbu`,`baochi`,`baozhu`,`fenhong`,`nianjia`,`tijian`,`regtime`,`content`,`bumen`,`lianxiren`,`zhuanye`,`shangji`) VALUES (28,'招聘网站运营人员',0,2,3,'2',1,'06315275057',1,1,1,1,null,null,null,null,null,null,1471056999,'<p><img src=\"/uploads/20160813/1471056996488841.jpg\" title=\"1471056996488841.jpg\" alt=\"1-1412311T430P7.jpg\"/></p>','运营�\�','杨老师','营销专业','总经�\�') [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-13T10:56:40+08:00 ] 0.0.0.0 /index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-13T10:56:43+08:00 ] 0.0.0.0 /index.php/Index/Rencai/more.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_zhaopin` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_zhaopin` LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `think_zhaopin` ORDER BY time DESC LIMIT 0,20   [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'time' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `think_zhaopin` ORDER BY time DESC LIMIT 0,20  
+SQL: SELECT * FROM `think_zhaopin` `zhaopin`,`think_user_qiye` `qiye` WHERE ( qiye.pid=zhaopin.pid )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-13T10:56:45+08:00 ] 0.0.0.0 /index.php/Rencai/alist/id/6
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_zhaopin` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `think_zhaopin` `zhaopin`,`think_user_qiye` `qiye` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: vo D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Runtime\Cache\Index\9914183dba6f06365f968d3192fe09f6.php 第 207 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-13T11:04:11+08:00 ] 0.0.0.0 /index.php/Rencai/alist/id/4
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_zhaopin` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `think_zhaopin` `zhaopin`,`think_user_qiye` `qiye` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: vo D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Runtime\Cache\Index\9914183dba6f06365f968d3192fe09f6.php 第 207 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-13T11:04:15+08:00 ] 0.0.0.0 /index.php/Rencai/alist/id/5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_zhaopin` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `think_zhaopin` `zhaopin`,`think_user_qiye` `qiye` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: vo D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Runtime\Cache\Index\9914183dba6f06365f968d3192fe09f6.php 第 207 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-13T11:09:21+08:00 ] 0.0.0.0 /index.php/Rencai/alist/id/5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `think_zhaopin` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `think_zhaopin` `zhaopin`,`think_user_qiye` `qiye` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: vo D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Runtime\Cache\Index\9914183dba6f06365f968d3192fe09f6.php 第 207 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-13T11:09:42+08:00 ] 0.0.0.0 /index.php/Index/Rencai/addzhaopin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: jiaotong D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 40 行.
+NOTIC: [8] Undefined index: tongxun D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: canbu D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 42 行.
+NOTIC: [8] Undefined index: baochi D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 43 行.
+NOTIC: [8] Undefined index: baozhu D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: fenhong D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 45 行.
+NOTIC: [8] Undefined index: nianjia D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 46 行.
+NOTIC: [8] Undefined index: tijian D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `think_zhaopin` [ RunTime:0.003000s ]
+SQL: INSERT INTO `think_zhaopin` (`pid`,`biaoti`,`address`,`xueli`,`jingyan`,`renshu`,`yuexin`,`tel`,`wuxian`,`jieri`,`jiaotong`,`tongxun`,`canbu`,`baochi`,`baozhu`,`fenhong`,`nianjia`,`tijian`,`regtime`,`content`,`bumen`,`lianxiren`,`zhuanye`,`shangji`) VALUES (28,'招聘网站运营人员',0,0,0,'2',0,'06315275057',1,1,null,null,null,null,null,null,null,null,1471057782,'<p><img src=\"/uploads/20160813/1471056746405359.jpg\" title=\"1471056746405359.jpg\" alt=\"1-1412311T124T0.jpg\"/></p>','运营�\�','杨老师','营销专业','总经�\�') [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-13T11:09:46+08:00 ] 0.0.0.0 /index.php/Index/Rencai/more.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_zhaopin` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_zhaopin` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_zhaopin` ORDER BY time DESC LIMIT 0,20   [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'time' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `think_zhaopin` ORDER BY time DESC LIMIT 0,20  
+SQL: SELECT * FROM `think_zhaopin` `zhaopin`,`think_user_qiye` `qiye` WHERE ( qiye.pid=zhaopin.pid )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-13T11:09:49+08:00 ] 0.0.0.0 /index.php/Rencai/alist/id/7
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_zhaopin` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `think_zhaopin` `zhaopin`,`think_user_qiye` `qiye` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: vo D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Runtime\Cache\Index\9914183dba6f06365f968d3192fe09f6.php 第 207 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-13T11:12:17+08:00 ] 0.0.0.0 /index.php/Index/Rencai/zhaopin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-13T11:12:48+08:00 ] 0.0.0.0 /index.php/Index/Rencai/addzhaopin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 30 行.
+NOTIC: [8] Undefined index: wuxian D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 38 行.
+NOTIC: [8] Undefined index: jiaotong D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 40 行.
+NOTIC: [8] Undefined index: tongxun D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: canbu D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 42 行.
+NOTIC: [8] Undefined index: baochi D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 43 行.
+NOTIC: [8] Undefined index: baozhu D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: fenhong D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 45 行.
+NOTIC: [8] Undefined index: nianjia D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 46 行.
+NOTIC: [8] Undefined index: tijian D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `think_zhaopin` [ RunTime:0.003001s ]
+SQL: INSERT INTO `think_zhaopin` (`pid`,`biaoti`,`address`,`xueli`,`jingyan`,`renshu`,`yuexin`,`tel`,`wuxian`,`jieri`,`jiaotong`,`tongxun`,`canbu`,`baochi`,`baozhu`,`fenhong`,`nianjia`,`tijian`,`regtime`,`content`,`bumen`,`lianxiren`,`zhuanye`,`shangji`) VALUES (null,'撒旦法守�\�',0,0,0,'3',0,'06315275058',null,1,null,null,null,null,null,null,null,null,1471057968,'<p><img src=\"/uploads/20160813/1471057962929228.jpg\" title=\"1471057962929228.jpg\" alt=\"1-1412311TG1916.jpg\"/></p>','斯蒂�\�','阿萨�\�','三顿','斯蒂�\�') [ RunTime:0.001000s ]
+ERR: 1048:Column 'pid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_zhaopin` (`pid`,`biaoti`,`address`,`xueli`,`jingyan`,`renshu`,`yuexin`,`tel`,`wuxian`,`jieri`,`jiaotong`,`tongxun`,`canbu`,`baochi`,`baozhu`,`fenhong`,`nianjia`,`tijian`,`regtime`,`content`,`bumen`,`lianxiren`,`zhuanye`,`shangji`) VALUES (null,'撒旦法守�\�',0,0,0,'3',0,'06315275058',null,1,null,null,null,null,null,null,null,null,1471057968,'<p><img src=\"/uploads/20160813/1471057962929228.jpg\" title=\"1471057962929228.jpg\" alt=\"1-1412311TG1916.jpg\"/></p>','斯蒂�\�','阿萨�\�','三顿','斯蒂�\�')
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-13T11:13:33+08:00 ] 0.0.0.0 /index.php/Index/Rencai/addzhaopin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 30 行.
+NOTIC: [8] Undefined index: canbu D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 42 行.
+NOTIC: [8] Undefined index: baochi D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 43 行.
+NOTIC: [8] Undefined index: baozhu D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: fenhong D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 45 行.
+NOTIC: [8] Undefined index: nianjia D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 46 行.
+NOTIC: [8] Undefined index: tijian D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `think_zhaopin` [ RunTime:0.002000s ]
+SQL: INSERT INTO `think_zhaopin` (`pid`,`biaoti`,`address`,`xueli`,`jingyan`,`renshu`,`yuexin`,`tel`,`wuxian`,`jieri`,`jiaotong`,`tongxun`,`canbu`,`baochi`,`baozhu`,`fenhong`,`nianjia`,`tijian`,`regtime`,`content`,`bumen`,`lianxiren`,`zhuanye`,`shangji`) VALUES (null,'三顿',1,2,3,'3',2,'06315275058',1,1,1,1,null,null,null,null,null,null,1471058013,'<p><img src=\"/uploads/20160813/1471057962929228.jpg\" title=\"1471057962929228.jpg\" alt=\"1-1412311TG1916.jpg\"/></p>','斯蒂�\�','阿萨�\�','三顿','斯蒂�\�') [ RunTime:0.000000s ]
+ERR: 1048:Column 'pid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_zhaopin` (`pid`,`biaoti`,`address`,`xueli`,`jingyan`,`renshu`,`yuexin`,`tel`,`wuxian`,`jieri`,`jiaotong`,`tongxun`,`canbu`,`baochi`,`baozhu`,`fenhong`,`nianjia`,`tijian`,`regtime`,`content`,`bumen`,`lianxiren`,`zhuanye`,`shangji`) VALUES (null,'三顿',1,2,3,'3',2,'06315275058',1,1,1,1,null,null,null,null,null,null,1471058013,'<p><img src=\"/uploads/20160813/1471057962929228.jpg\" title=\"1471057962929228.jpg\" alt=\"1-1412311TG1916.jpg\"/></p>','斯蒂�\�','阿萨�\�','三顿','斯蒂�\�')
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-13T11:14:14+08:00 ] 0.0.0.0 /index.php/Index/Rencai/zhaopin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-13T11:14:32+08:00 ] 0.0.0.0 /index.php/Index/Rencai/addzhaopin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 30 行.
+NOTIC: [8] Undefined index: jieri D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 39 行.
+NOTIC: [8] Undefined index: jiaotong D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 40 行.
+NOTIC: [8] Undefined index: tongxun D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: canbu D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 42 行.
+NOTIC: [8] Undefined index: baochi D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 43 行.
+NOTIC: [8] Undefined index: baozhu D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: fenhong D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 45 行.
+NOTIC: [8] Undefined index: tijian D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `think_zhaopin` [ RunTime:0.004001s ]
+SQL: INSERT INTO `think_zhaopin` (`pid`,`biaoti`,`address`,`xueli`,`jingyan`,`renshu`,`yuexin`,`tel`,`wuxian`,`jieri`,`jiaotong`,`tongxun`,`canbu`,`baochi`,`baozhu`,`fenhong`,`nianjia`,`tijian`,`regtime`,`content`,`bumen`,`lianxiren`,`zhuanye`,`shangji`) VALUES (null,'撒旦法守�\�',0,0,0,'3',0,'06315275058',1,null,null,null,null,null,null,null,1,null,1471058072,'<p><img src=\"/uploads/20160813/1471058069983792.jpg\" title=\"1471058069983792.jpg\" alt=\"1-1412311T430P7.jpg\"/></p>','斯蒂�\�','阿萨�\�','三顿','斯蒂�\�') [ RunTime:0.000000s ]
+ERR: 1048:Column 'pid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_zhaopin` (`pid`,`biaoti`,`address`,`xueli`,`jingyan`,`renshu`,`yuexin`,`tel`,`wuxian`,`jieri`,`jiaotong`,`tongxun`,`canbu`,`baochi`,`baozhu`,`fenhong`,`nianjia`,`tijian`,`regtime`,`content`,`bumen`,`lianxiren`,`zhuanye`,`shangji`) VALUES (null,'撒旦法守�\�',0,0,0,'3',0,'06315275058',1,null,null,null,null,null,null,null,1,null,1471058072,'<p><img src=\"/uploads/20160813/1471058069983792.jpg\" title=\"1471058069983792.jpg\" alt=\"1-1412311T430P7.jpg\"/></p>','斯蒂�\�','阿萨�\�','三顿','斯蒂�\�')
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-13T11:14:51+08:00 ] 0.0.0.0 /index.php/Index/Rencai/addzhaopin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 30 行.
+NOTIC: [8] Undefined index: jieri D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 39 行.
+NOTIC: [8] Undefined index: jiaotong D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 40 行.
+NOTIC: [8] Undefined index: tongxun D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: canbu D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 42 行.
+NOTIC: [8] Undefined index: baochi D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 43 行.
+NOTIC: [8] Undefined index: baozhu D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: fenhong D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 45 行.
+NOTIC: [8] Undefined index: tijian D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `think_zhaopin` [ RunTime:0.002001s ]
+SQL: INSERT INTO `think_zhaopin` (`pid`,`biaoti`,`address`,`xueli`,`jingyan`,`renshu`,`yuexin`,`tel`,`wuxian`,`jieri`,`jiaotong`,`tongxun`,`canbu`,`baochi`,`baozhu`,`fenhong`,`nianjia`,`tijian`,`regtime`,`content`,`bumen`,`lianxiren`,`zhuanye`,`shangji`) VALUES (null,'撒旦法守�\�',0,0,0,'3',0,'06315275058',1,null,null,null,null,null,null,null,1,null,1471058091,'<p><img src=\"/uploads/20160813/1471058069983792.jpg\" title=\"1471058069983792.jpg\" alt=\"1-1412311T430P7.jpg\"/></p>','斯蒂�\�','阿萨�\�','三顿','斯蒂�\�') [ RunTime:0.000000s ]
+ERR: 1048:Column 'pid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_zhaopin` (`pid`,`biaoti`,`address`,`xueli`,`jingyan`,`renshu`,`yuexin`,`tel`,`wuxian`,`jieri`,`jiaotong`,`tongxun`,`canbu`,`baochi`,`baozhu`,`fenhong`,`nianjia`,`tijian`,`regtime`,`content`,`bumen`,`lianxiren`,`zhuanye`,`shangji`) VALUES (null,'撒旦法守�\�',0,0,0,'3',0,'06315275058',1,null,null,null,null,null,null,null,1,null,1471058091,'<p><img src=\"/uploads/20160813/1471058069983792.jpg\" title=\"1471058069983792.jpg\" alt=\"1-1412311T430P7.jpg\"/></p>','斯蒂�\�','阿萨�\�','三顿','斯蒂�\�')
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-13T11:14:55+08:00 ] 0.0.0.0 /index.php/Index/Rencai/zhaopin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-13T11:15:18+08:00 ] 0.0.0.0 /index.php/Index/Rencai/addzhaopin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 30 行.
+NOTIC: [8] Undefined index: wuxian D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 38 行.
+NOTIC: [8] Undefined index: jieri D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 39 行.
+NOTIC: [8] Undefined index: jiaotong D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 40 行.
+NOTIC: [8] Undefined index: tongxun D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: canbu D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 42 行.
+NOTIC: [8] Undefined index: baochi D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 43 行.
+NOTIC: [8] Undefined index: baozhu D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: fenhong D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 45 行.
+NOTIC: [8] Undefined index: nianjia D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 46 行.
+NOTIC: [8] Undefined index: tijian D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `think_zhaopin` [ RunTime:0.002000s ]
+SQL: INSERT INTO `think_zhaopin` (`pid`,`biaoti`,`address`,`xueli`,`jingyan`,`renshu`,`yuexin`,`tel`,`wuxian`,`jieri`,`jiaotong`,`tongxun`,`canbu`,`baochi`,`baozhu`,`fenhong`,`nianjia`,`tijian`,`regtime`,`content`,`bumen`,`lianxiren`,`zhuanye`,`shangji`) VALUES (null,'撒旦法守�\�',0,2,0,'3',1,'06315275058',null,null,null,null,null,null,null,null,null,null,1471058118,'<p><img src=\"/uploads/20160813/1471058113421410.jpg\" title=\"1471058113421410.jpg\" alt=\"1-1412311T430P7.jpg\"/></p>','斯蒂�\�','阿萨�\�','三顿','斯蒂�\�') [ RunTime:0.000000s ]
+ERR: 1048:Column 'pid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_zhaopin` (`pid`,`biaoti`,`address`,`xueli`,`jingyan`,`renshu`,`yuexin`,`tel`,`wuxian`,`jieri`,`jiaotong`,`tongxun`,`canbu`,`baochi`,`baozhu`,`fenhong`,`nianjia`,`tijian`,`regtime`,`content`,`bumen`,`lianxiren`,`zhuanye`,`shangji`) VALUES (null,'撒旦法守�\�',0,2,0,'3',1,'06315275058',null,null,null,null,null,null,null,null,null,null,1471058118,'<p><img src=\"/uploads/20160813/1471058113421410.jpg\" title=\"1471058113421410.jpg\" alt=\"1-1412311T430P7.jpg\"/></p>','斯蒂�\�','阿萨�\�','三顿','斯蒂�\�')
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-13T11:16:59+08:00 ] 0.0.0.0 /index.php/Index/Rencai/zhaopin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-13T11:17:26+08:00 ] 0.0.0.0 /index.php/Index/Rencai/addzhaopin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 30 行.
+NOTIC: [8] Undefined index: jieri D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 39 行.
+NOTIC: [8] Undefined index: jiaotong D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 40 行.
+NOTIC: [8] Undefined index: tongxun D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: canbu D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 42 行.
+NOTIC: [8] Undefined index: baochi D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 43 行.
+NOTIC: [8] Undefined index: baozhu D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: fenhong D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 45 行.
+NOTIC: [8] Undefined index: nianjia D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 46 行.
+NOTIC: [8] Undefined index: tijian D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `think_zhaopin` [ RunTime:0.002001s ]
+SQL: INSERT INTO `think_zhaopin` (`pid`,`biaoti`,`address`,`xueli`,`jingyan`,`renshu`,`yuexin`,`tel`,`wuxian`,`jieri`,`jiaotong`,`tongxun`,`canbu`,`baochi`,`baozhu`,`fenhong`,`nianjia`,`tijian`,`regtime`,`content`,`bumen`,`lianxiren`,`zhuanye`,`shangji`) VALUES (null,'撒旦法守�\�',0,0,0,'3',2,'06315275058',1,null,null,null,null,null,null,null,null,null,1471058246,'<p><img src=\"/uploads/20160813/1471058243778918.jpg\" title=\"1471058243778918.jpg\" alt=\"1-1412311T124T0.jpg\"/></p>','斯蒂�\�','阿萨�\�','三顿','斯蒂�\�') [ RunTime:0.000000s ]
+ERR: 1048:Column 'pid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_zhaopin` (`pid`,`biaoti`,`address`,`xueli`,`jingyan`,`renshu`,`yuexin`,`tel`,`wuxian`,`jieri`,`jiaotong`,`tongxun`,`canbu`,`baochi`,`baozhu`,`fenhong`,`nianjia`,`tijian`,`regtime`,`content`,`bumen`,`lianxiren`,`zhuanye`,`shangji`) VALUES (null,'撒旦法守�\�',0,0,0,'3',2,'06315275058',1,null,null,null,null,null,null,null,null,null,1471058246,'<p><img src=\"/uploads/20160813/1471058243778918.jpg\" title=\"1471058243778918.jpg\" alt=\"1-1412311T124T0.jpg\"/></p>','斯蒂�\�','阿萨�\�','三顿','斯蒂�\�')
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-13T11:17:51+08:00 ] 0.0.0.0 /index.php/Index/Rencai/addzhaopin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 30 行.
+NOTIC: [8] Undefined index: jieri D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 39 行.
+NOTIC: [8] Undefined index: jiaotong D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 40 行.
+NOTIC: [8] Undefined index: tongxun D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: canbu D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 42 行.
+NOTIC: [8] Undefined index: baochi D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 43 行.
+NOTIC: [8] Undefined index: baozhu D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: fenhong D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 45 行.
+NOTIC: [8] Undefined index: nianjia D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 46 行.
+NOTIC: [8] Undefined index: tijian D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 47 行.
+
+[ 2016-08-13T11:18:24+08:00 ] 0.0.0.0 /index.php/Index/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.023001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.063004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063004s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-13T11:18:25+08:00 ] 0.0.0.0 /index.php/Index/Member/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-13T11:18:31+08:00 ] 0.0.0.0 /index.php/Index/Member/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` = 'qwe' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: lock D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\MemberAction.class.php 第 224 行.
+SQL: UPDATE `think_user` SET `logintime`=1471058311,`loginip`='0.0.0.0' WHERE ( `id` = 28 ) [ RunTime:0.001000s ]
+
+[ 2016-08-13T11:18:31+08:00 ] 0.0.0.0 /index.php/Index/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-13T11:18:55+08:00 ] 0.0.0.0 /index.php/Index/Rencai/zhaopin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 171 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-13T11:19:13+08:00 ] 0.0.0.0 /index.php/Index/Rencai/addzhaopin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: jieri D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 39 行.
+NOTIC: [8] Undefined index: jiaotong D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 40 行.
+NOTIC: [8] Undefined index: tongxun D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: canbu D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 42 行.
+NOTIC: [8] Undefined index: baochi D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 43 行.
+NOTIC: [8] Undefined index: baozhu D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 44 行.
+NOTIC: [8] Undefined index: fenhong D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 45 行.
+NOTIC: [8] Undefined index: nianjia D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 46 行.
+NOTIC: [8] Undefined index: tijian D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Action\RencaiAction.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `think_zhaopin` [ RunTime:0.002000s ]
+SQL: INSERT INTO `think_zhaopin` (`pid`,`biaoti`,`address`,`xueli`,`jingyan`,`renshu`,`yuexin`,`tel`,`wuxian`,`jieri`,`jiaotong`,`tongxun`,`canbu`,`baochi`,`baozhu`,`fenhong`,`nianjia`,`tijian`,`regtime`,`content`,`bumen`,`lianxiren`,`zhuanye`,`shangji`) VALUES (28,'撒旦法守�\�',0,0,0,'3',0,'06315275058',1,null,null,null,null,null,null,null,null,null,1471058353,'<p><img src=\"/uploads/20160813/1471058350733390.jpg\" title=\"1471058350733390.jpg\" alt=\"1-1412311T52D18.jpg\"/></p>','斯蒂�\�','阿萨�\�','三顿','斯蒂�\�') [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-13T11:19:16+08:00 ] 0.0.0.0 /index.php/Index/Rencai/more.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_zhaopin` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_zhaopin` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_zhaopin` ORDER BY time DESC LIMIT 0,20   [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'time' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `think_zhaopin` ORDER BY time DESC LIMIT 0,20  
+SQL: SELECT * FROM `think_zhaopin` `zhaopin`,`think_user_qiye` `qiye` WHERE ( qiye.pid=zhaopin.pid )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-13T11:19:18+08:00 ] 0.0.0.0 /index.php/Rencai/alist/id/8
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_zhaopin` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `think_zhaopin` `zhaopin`,`think_user_qiye` `qiye` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: vo D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Runtime\Cache\Index\9914183dba6f06365f968d3192fe09f6.php 第 207 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-13T11:22:53+08:00 ] 0.0.0.0 /index.php/Index/Rencai/more.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_zhaopin` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_zhaopin` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `think_zhaopin` ORDER BY time DESC LIMIT 0,20   [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'time' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `think_zhaopin` ORDER BY time DESC LIMIT 0,20  
+SQL: SELECT * FROM `think_zhaopin` `zhaopin`,`think_user_qiye` `qiye` WHERE ( qiye.pid=zhaopin.pid ) ORDER BY id DESC  [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-13T11:23:11+08:00 ] 0.0.0.0 /index.php/Index/Rencai/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-13T11:24:05+08:00 ] 0.0.0.0 /index.php/Rencai/alist/id/8
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include(./Conf/config.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear;D:\WWW\thinkphp3.1.3\thinkphp3.1.3\ThinkPHP/Extend/Vendor/') D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Home\Index\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `think_zhaopin` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `think_zhaopin` `zhaopin`,`think_user_qiye` `qiye` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: vo D:\WWW\thinkphp3.1.3\thinkphp3.1.3\Application\Runtime\Cache\Index\9914183dba6f06365f968d3192fe09f6.php 第 207 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+

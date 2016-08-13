@@ -27,7 +27,7 @@
 							<div class="sojob-item-main clearfix">
 								<div class="job-info" >
 									<h3 title="{$vo.biaoti}" >
-										<a href="{:U(Index/Rencai/alist)}" data-promid="imscid=R000000075" target="_blank">
+										<a href="__URL__/alist/id/{$vo['id']}" target="_blank">
 											{$vo.biaoti}
 										</a>  
 									</h3>
@@ -56,7 +56,7 @@
 								
 								<div class="company-info" >
 									<p class="company-name">
-										<a title="{$vo.xname}" href="" target="_blank">
+										<a title="{$vo.xname}" target="_blank">
 										{$vo.xname}</a>
 									</p>
 									<p class="field-financing">

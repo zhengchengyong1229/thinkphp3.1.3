@@ -48,6 +48,8 @@ class RencaiAction extends Action
 			'regtime' => time(),
 			'content' => $_POST['content'],
 			'bumen' => $_POST['bumen'],
+			'lianxiren' => $_POST['lianxiren'],
+			'zhuanye' => $_POST['zhuanye'],
 			'shangji' => $_POST['shangji']
 			//'image'=>$a[0]['savename']
 		);
@@ -61,24 +63,21 @@ class RencaiAction extends Action
 	}
 
 	//展示页面
-	Public function alist($id = 0){
+	Public function alist(){
 
-		$id += 0;
-		$data = D('zhaopin')->table('think_zhaopin a,think_user_qiye b')->where('a.pid=b.id')->getOne($id);
+		$list = M('zhaopin');
+		
+		$id = (int)$_GET['id'];
+
+		$alist=$list->table(array('think_zhaopin'=>'zhaopin','think_user_qiye'=>'qiye'))->where(array('id'=>$id))->find();
+
+		//$data = $list->table('think_zhaopin a,think_user_qiye b')->where(array("a.pid"=>"b.id","a.id"=>$id))->find();
 	
-        $this->assign('data',$data);
+        $this->assign('mlist',$alist);
         $this->display();
 
 	}
 
-	public function zhanshi($id = 0 )
-    {
-		$id += 0;
-		$data = D('zhaopin')->table('think_zhaopin a,think_user_qiye b')->where('a.pid=b.id')->getOne($id);
-	
-        $this->assign('data',$data);
-        $this->display();
-    }
 
 	//	more 页面展示
 	Public function more () {
@@ -89,12 +88,12 @@ class RencaiAction extends Action
 			$page = new Page($count,20);
 			$limit =  $page->firstRow.','.$page->listRows;
 			$blog = M('zhaopin')->order('time DESC')->limit($limit)->select();
-			$this->blog = $blog;
-			$this->aid = $_GET['id'];
+			//$this->blog = $blog;
+			//$this->aid = $_GET['id'];
 			$this->page = $page->show();
 
 		
-		$this->assign('qlist',M('zhaopin')->table('think_zhaopin a,think_user_qiye b')->where('a.pid=b.id')->select())->display();
+		$this->assign('qlist',M('zhaopin')->table(array('think_zhaopin'=>'zhaopin','think_user_qiye'=>'qiye'))->where('qiye.pid=zhaopin.pid')->order('id DESC')->select())->display();
 	}
 
 

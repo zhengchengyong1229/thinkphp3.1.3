@@ -169,11 +169,11 @@
 				<div class="about-position" style="margin-bottom:10px;">
 					<div class="title-info">
 						
-						<h1 title="资深工程经理">资深工程经理</h1>
+						<h1 title=""><?php echo ($mlist['biaoti']); ?></h1>
 						<h3>
 						
 							<a href="https://company.liepin.com/8404529/" data-promid="" target="_blank"
-								title="浙江万科南都房地产">浙江万科南都房地产</a>
+								title="浙江万科南都房地产"><?php echo ($mlist['xname']); ?></a>
 						</h3>
 						
 						<span class="triangle"></span>
@@ -184,22 +184,29 @@
 					<div class="job-item">
 						<div class="clearfix">
 							<div class="job-title-left">
-								<p class="job-item-title">30-40万
+								<p class="job-item-title">月薪：
+									<?php switch($mlist['yuexin']){ case 0: echo '面议'; break; case 1: echo '2000元-4000元'; break; case 2: echo '4001元-6000元'; break; case 3: echo '6001元-8000元'; break; case 4: echo '8001元-10000元'; break; case 5: echo '10000元以上'; break;} ?>
 									<em></em>
 									
 								</p>
 								<p class="basic-infor">
 									<span> <i class="icons24 icons24-position"></i> 
-										 <a
-										href="">威海</a>
+										 <a>
+											<?php switch($mlist['address']){ case 0: echo '威海'; break; case 1: echo '文登'; break; case 2: echo '荣成'; break; case 3: echo '乳山'; break; case 4: echo '其他'; break;} ?>
+										 </a>
 										
-									</span> <span> <i class="icons24 icons24-time"></i> 23小时前
+									</span> <span> <i class="icons24 icons24-time"></i><?php echo (date('Y-m-d H:s',$mlist['regtime'])); ?>
 									</span>
 								</p>
 								<div class="job-qualifications">
 									
-									<span>本科及以上</span> <span>8年以上经验</span>
-									<span>普通话</span> <span>30-35岁</span>
+									<span>
+										<?php switch($mlist['xueli']){ case 0: echo '学历不限'; break; case 1: echo '高中以上'; break; case 2: echo '大专以上'; break; case 3: echo '本科以上'; break; case 4: echo '硕士以上'; break; case 5: echo '硕博士以上'; break;} ?>
+									</span> 
+									<span>
+										<?php switch($vo['jingyan']){ case 0: echo '经验不限'; break; case 1: echo '1年以上经验'; break; case 2: echo '2年以上经验'; break; case 3: echo '3年以上经验'; break; case 4: echo '5年以上经验'; break; case 5: echo '10年以上经验'; break;} ?>
+									</span>
+									<!-- <span>普通话</span> <span>30-35岁</span> -->
 								</div>
 							</div>
 							<!-- 收藏按钮 start -->
@@ -208,7 +215,7 @@
 							
 								
 								<div data-selector="fix-jobapply">
-									<a href="tel:06315275058" class="btn-apply btn btn-warning" data-selector="sendResume">电话：06315275058</a>
+									<a href="tel:06315275058" class="btn-apply btn btn-warning" data-selector="sendResume">电话：<?php echo ($mlist['tel']); ?></a>
 								</div>
 								
 							</div>
@@ -216,14 +223,27 @@
 						<!-- tags -->
 						
 						<div class="tag-list">
+
+							<?php if(isset($mlist['wuxian'])){echo '<span class="tag">五险一金</span>';} ?>
+												
+							<?php if(isset($mlist['jieri'])){echo '<span class="tag">节日福利</span>';} ?>
+												
+							<?php if(isset($mlist['jiaotong'])){echo '<span class="tag">交通补助</span>';} ?>
+												
+							<?php if(isset($mlist['tongxun'])){echo '<span class="tag">通讯补助</span>';} ?>
+												
+							<?php if(isset($mlist['canbu'])){echo '<span class="tag">餐补</span>';} ?>
+												
+							<?php if(isset($mlist['baochi'])){echo '<span class="tag">包吃</span>';} ?>
+												
+							<?php if(isset($mlist['baozhu'])){echo '<span class="tag">包住</span>';} ?>
+												
+							<?php if(isset($mlist['fenhong'])){echo '<span class="tag">年底分红</span>';} ?>
+												
+							<?php if(isset($mlist['nianjia'])){echo '<span class="tag">带薪年假</span>';} ?>
+												
+							<?php if(isset($mlist['tijian'])){echo '<span class="tag">定期体检</span>';} ?>
 							
-							<span class="tag" title="奖金/提成">奖金/提成</span>
-							
-							<span class="tag" title="商业保险">商业保险</span>
-							
-							<span class="tag" title="有公积金">有公积金</span>
-							
-							<span class="tag" title="通信交通补助">通信交通补助</span>
 							
 						</div>
 						
@@ -235,12 +255,12 @@
 						<h3 class="job-title">其他信息：</h3>
 						<div class="content" style="padding:15px 10px 0px 10px;">
 							<ul>
-								<li><span>所属部门：</span><label>项目经理部</label></li>
+								<li><span>所属部门：</span><label><?php echo ($mlist['bumen']); ?></label></li>
 								<li><span>专业要求：</span><label>不限</label></li>
 								
-								<li><span>汇报对象：</span><label>项目总经理</label></li>
+								<li><span>汇报对象：</span><label><?php echo ($mlist['shangji']); ?></label></li>
 								
-								<li><span>招聘人数：</span><label>4人</label></li>
+								<li><span>招聘人数：</span><label><?php echo ($mlist['renshu']); ?></label></li>
 								
 								
 							</ul>
@@ -253,8 +273,8 @@
 					<!-- 职位描述 -->
 					<div class="job-item main-message">
 						<h3 class="job-title">职位描述：</h3>
-						<div class="content content-word">
-							岗位职责：<br/>1、负责相关项目的全面工程管理，确保工程进度及工程质量；<br/>2、参与对总包、施工及监理单位的管理，确保工程施工达到设计要求并符合流程规范；<br/>3、参与工程施工过程中与政府各相关部门、设计院、施工单位及公司各部门的综合协调；<br/>4、协调建筑、精装、水电、景观等相关专业人员共同解决现场存在的问题；<br/>5、参与施工方案的审核，及时处理并上报重大问题，管理现场签证及工程备案等。<br/><br/>任职要求：<br/>1、土木工程、民工建等相关专业大学本科及以上学历，具有中级以上职称者优先；<br/>2、八年以上知名房地产开发企业相关工作经历，有大型综合项目（15万方以上）工程管理经验；<br/>3、具有较强的工程技术背景，对建筑、精装、水电、景观等相关专业均有一定认识，具备项目综合管理能力；<br/>4、熟悉国家及地方相关政策规范，熟悉房地产开发流程，熟悉施工图、施工流程管理、验收规范及市政配套建设等工作；<br/>5、严谨细致、责任心强，具有良好的沟通协调及计划控制能力；
+						<div class="content content-word" style="width:100%;">
+							<?php echo ($mlist['content']); ?>
 						</div>
 					</div>
 					
@@ -263,7 +283,7 @@
 					
 					<div class="job-item main-message noborder" data-selector="introduction">
 						<h3 class="job-title">企业介绍：</h3>
-						<div class="content content-word">万科企业股份有限公司成立于1984年5月，是目前中国最大的专业住宅开发企业。2008年公司完成新开工面积523.3万平方米，竣工面积529.4万平方米，实现销售金额478.7亿元，结算收入404.9亿元，净利润40.3亿元。公司致力于通过规范、透明的企业文化和稳健、专注的发展模式，成为最受客户、最受投资者、最受员工、最受合作伙伴欢迎，最受社会尊重的企业。凭借公司治理和道德准则上的表现，公司连续六次获得“中国最受尊敬企业”称号，2008年入选《华尔街日报》（亚洲版）“中国十大最受尊敬企业”。</div>
+						<div class="content content-word"><?php echo ($mlist['mcontent']); ?></div>
 					</div>
 					
 					<div class="job-resume-block "
@@ -359,17 +379,17 @@
 					<div class="right-post-top">
 						<h3 class="job-title">职位发布者</h3>
 						<div class="publisher-infor">
-						  <p><img class="tinyFace circle" src="https://image0.lietou-static.com/normal/5697458b45cec841a3d91dcb04a.jpg" /></p>
-						  <p class="publisher-name"><span>朱佩佩</span>
+						  <p><img class="tinyFace circle" src="/uploads/<?php echo ($mlist['image']); ?>" style="width:50px;height:50px;" /></p>
+						  <p class="publisher-name"><span><?php echo ($mlist['lianxiren']); ?></span>
 						  <em class="muted">/ 经理</em>
 						  </p>
-						  <p>浙江万科南都房地产</p>
+						  <p><?php echo ($mlist['xname']); ?></p>
 						  
-							  <p>Email:&nbsp;&nbsp;hr@whys.com</p>
+							  <p>Email:&nbsp;&nbsp;<?php echo ($mlist['email']); ?></p>
 						      
 						</div>
 						
-						<div class="apply-check">
+						<!-- <div class="apply-check">
 						  <span>
 						  
 					      	<em>52</em> %
@@ -381,7 +401,7 @@
 						      
 						     天<p class="muted">应聘查看用时</p>
 						  </span>
-						</div>
+						</div> -->
 						
 						<div class="company-infor">
 						  <!-- <h4>
@@ -391,7 +411,7 @@
 						  
 							<li style="float:none;">
 							    
-	                            <p>房地产开发/建筑/建材/工程</p>
+	                            <p><?php echo ($mlist['jingying']); ?></p>
 	                            
 							</li>
 						  
@@ -402,13 +422,14 @@
 						    <!-- <li>国内上市公司</li> -->
 						  
 						  </ul>
-						  <p style="text-align:center;"><i class="icons16 icons16-position"></i>杭州市西湖区学院路77号黄龙万科中心H座9楼</p>
+						  <p style="text-align:center;"><i class="icons16 icons16-position"></i><?php echo ($mlist['address']); ?></p>
 						</div>
 					</div>
 					
 				</div>
 				
 			</div>
+			
 		</div>
 		
 	</div>

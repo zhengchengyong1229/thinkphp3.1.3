@@ -105,7 +105,7 @@ Class MemberAction extends Action {
 			'zhengzhi' =>$_POST['mianmao'],
 			'tel' => $_POST['tel'],
 			'address' =>$_POST['address'],
-			'content' => $_POST['content'],
+			'qcontent' => $_POST['content'],
 			'image'=>$a[0]['savename']
 		);
 
@@ -143,16 +143,17 @@ Class MemberAction extends Action {
 		}
 
 		$data = array(
-			'id' => $_SESSION['uid'],
+			'pid' => $_SESSION['uid'],
 			'xname' => $_POST['xname'],
 			'tel' => $_POST['tel'],
 			'email' => $_POST['email'],
 			'address' =>$_POST['address'],
 			'jingying' =>$_POST['jingying'],
-			'content' => $_POST['content'],
+			'mcontent' => $_POST['content'],
 			'image'=>$a[0]['savename']
 		);
-		if (M('user_qiye')->save($data)) {
+		
+		if (M('user_qiye')->add($data)) {
 			$this->success('资料填写成功',U('Index/Index/index'));
 		}else{
 			$this->error('资料填写失败,请重试...');
@@ -165,14 +166,14 @@ Class MemberAction extends Action {
 		$upload = new UploadFile();
 		$upload->autoSub = true;
 		$upload->subType = 'date';
-		$upload->dateFormat = 'Ym';
+		//$upload->dateFormat = 'Ym';
 
 		$upload->savePath='./uploads/';
 		$upload->allowExts=array('jpg','jpeg','png','gif','bmp');
 		$upload->allowTypes=array('image/png','image/jpg','image/pjpeg','image/gif','image/jpeg');
 		$upload->thumb=true;  //是否开启缩略图
-		$upload->thumbMaxWidth='150,640';
-		$upload->thumbMaxHeight='180,480';
+		$upload->thumbMaxWidth='50,640';
+		$upload->thumbMaxHeight='50,480';
 		$upload->thumbPrefix='s_,m_';   //缩略图文件前缀
 
 		if($upload->upload()){

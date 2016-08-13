@@ -171,7 +171,7 @@
 							<div class="sojob-item-main clearfix">
 								<div class="job-info" >
 									<h3 title="<?php echo ($vo["biaoti"]); ?>" >
-										<a href="<?php echo U(Index/Rencai/alist);?>" data-promid="imscid=R000000075" target="_blank">
+										<a href="__URL__/alist/id/<?php echo ($vo['id']); ?>" target="_blank">
 											<?php echo ($vo["biaoti"]); ?>
 										</a>  
 									</h3>
@@ -200,7 +200,7 @@
 								
 								<div class="company-info" >
 									<p class="company-name">
-										<a title="<?php echo ($vo["xname"]); ?>" href="" target="_blank">
+										<a title="<?php echo ($vo["xname"]); ?>" target="_blank">
 										<?php echo ($vo["xname"]); ?></a>
 									</p>
 									<p class="field-financing">
